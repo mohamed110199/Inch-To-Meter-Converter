@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+.container {
+    background-color: #323232;
+    color: white;
+    width: 480px;
+    height: 325px;   
+    padding: 10px;
+}
+#input {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 440px;
+    height: 83px;
+    gap: 15px;
+}
+
+label {
+    display: flex;
+    align-items: flex-start;
+}
+
+#inchesInput {
+    padding: 15px 10px;
+
+}
+
+button {
+    background-color: #007BFF;
+    padding: 15px 190px;
+    margin: 20px;
+    border-color: #007BFF;
+    color: white;
+    }
+
+.result {
+    width: 440px;
+    height: 50px;
+    margin: auto;
+    font-size: 24px;
+    background-color: green;
+    text-align: center;
+}
